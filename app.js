@@ -1,7 +1,7 @@
 const heading = document.getElementsByTagName('h1')[0];
 const catsContainer = document.getElementById('container');
 
-heading.innerText = 'Gen ja kassid';
+heading.innerText = 'Kassid';
 
 fetch('https://catfact.ninja/breeds?limit=100')
 .then(res => res.json())
@@ -19,6 +19,6 @@ fetch('https://catfact.ninja/breeds?limit=100')
         `;
 
         catsContainer.append(catDiv);
-       
+    
     });
 });

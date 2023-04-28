@@ -1,7 +1,6 @@
-#kontainer {
+#container {
     display: block;
-}
-
-.cat {
-    border: 1px slateblue dotted;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
